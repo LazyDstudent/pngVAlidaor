@@ -1,0 +1,12 @@
+{
+  "results": [
+    {
+      "command_run": "./png_checker --file-path /home/zmolari/c/Png_valid/tests/cat.png",
+      "output": "This file is a PNG!"
+    },
+    {
+      "command_run": "./png_checker --file-path /home/zmolari/c/Png_valid/tests/cat.jpg",
+      "output": "This ain't a PNG file."
+    }
+  ]
+}
